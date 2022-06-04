@@ -1,5 +1,4 @@
 const express = require("express");
-const db = require("./config/connection");
 const routes = require("./routes");
 const mongoose = require("mongoose");
 
@@ -11,10 +10,10 @@ app.use(express.urlencoded({ extended: true }));
 app.use(routes);
 
 mongoose.connect(
-  process.env.MONGODB_URI || "mongodb://localhost:27017/social_network",
+  process.env.MONGODB_URI || "mongodb://localhost:27017/social_network_API",
   {
     useNewUrlParser: true,
-    useUnifiedTopology: true
+    useUnifiedTopology: true,
   }
 );
 
