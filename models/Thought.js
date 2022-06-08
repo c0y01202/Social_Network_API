@@ -25,7 +25,7 @@ const ThoughtSchema = new Schema(
     },
 
     // array of nested documents created with the reactionSchema
-    //  reactions: [ReactionSchema],
+    reactions: [ReactionSchema],
   },
   {
     toJSON: {

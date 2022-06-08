@@ -15,15 +15,25 @@ Finally, after setting up the NoSQL database routes were tested with Insomnia to
 5. Google
 6. Insomnia
 7. Google Screencastify
+8. Nodemon
 
 ## Commands to Launch the Application
+
 Simply clone this code and install Mongoose with `install mongoose` and `install express`. Install MongoDB Community Edition on Windows or Mac. Run `mongod` in one termainl open another terminal then run `npm start` to connect to the server. Use Insomnia to test the routes for the Social Network API.
 
-## Link to Testing User Routes:
+## Link to Testing Routes:
+
 https://drive.google.com/file/d/1XAzXKN8mjTHBgk4ITKdaDaRwQ2Cu88SU/view
 
-## Link to Testing Toughts Routes:
+## Link to Test Thought Routes:
+
+https://drive.google.com/file/d/1B67aF76KP052zBtt_3nRcHvh9QIjHxYa/view
+
+## Link to Creating Reaction, thoughts and User Routes:
+
+https://drive.google.com/file/d/1h-R6qqouyBeYj2h-Tq9ffVDhil0fwUxo/views
 
 
 ## Link to Github URL:
+
 https://github.com/c0y01202/Social_Network_API
